@@ -3,7 +3,6 @@ from fastapi import FastAPI, BackgroundTasks, Request, UploadFile, File,Response
 from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
 from schemas.response_schemas import MainVoiceClone, AudioInput
 from typing import IO, Any, List
-from backend import CustomMimic, GeneralMimics
 import base64
 import io
 from pydub import AudioSegment
