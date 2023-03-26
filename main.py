@@ -7,15 +7,11 @@ import base64
 import io
 from pydub import AudioSegment
 import wave
-from config import settings
 import io
 import soundfile as sf
 import numpy as np
 from core.runner import synthesize_speech
-router = APIRouter(
-    prefix=f"{settings.BASE_URL}",
-    tags=["Train Embedding on Custom Voice"],
-)
+
 app = FastAPI()
 
 
