@@ -10,6 +10,42 @@ depend on, and they will be installed using:
 ```
 pip install -r requirements.txt
 ```
+- Requirements
+
+```
+# Fast API Packages
+fastapi==0.71.0
+uvicorn[standard]==0.16.0
+pyjwt==2.3.0
+python-multipart==0.0.5
+
+# Application Packages
+inflect==6.0.2
+librosa==0.8.1
+matplotlib==3.5.1
+numpy==1.20.3
+Pillow==8.4.0
+PyQt5==5.15.6
+scikit-learn==1.0.2
+scipy==1.7.3
+sounddevice==0.4.3
+SoundFile==0.10.3.post1
+tqdm==4.62.3
+umap-learn==0.5.2
+Unidecode==1.3.2
+urllib3==1.26.7
+visdom==0.1.8.9
+webrtcvad-wheels==2.0.11.post1
+
+# Pytorch requirements
+torch
+torchvision
+torchaudio
+
+pydub
+
+
+```
 
 The base Binder image contains no extra dependencies, so be as
 explicit as possible in defining the packages that you need. This includes
